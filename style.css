@@ -577,4 +577,26 @@ footer p{
         margin-bottom: 16px;
     }
 
-   
+    .main .info button{
+        padding: 6px 20px;
+        font-size: 13px;
+    }
+
+    .main img{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    .recent .posts,
+    .content .container{
+        flex-direction: column;
+    }
+
+    .content .container img{
+        width: 100%;
+        height: auto;
+    }
+
+}

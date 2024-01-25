@@ -6,4 +6,7 @@ function downloadResume() {
   var link = document.createElement('a');
   link.href = resumeUrl;
   link.download = 'deven-resume.pdf'; // You can set the desired file name
-  document.body.appendChild(link)
+  document.body.appendChild(link);
+    link.click();
+  document.body.removeChild(link);
+}
